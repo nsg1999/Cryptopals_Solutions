@@ -11,7 +11,7 @@ c = 0
 
 def count_func():
 	global c
-	n = struct.pack("<Q", nonce)
+	n = struct.pack("<Q", nonce)  #Q returns 8 bytes(long int)
 	c1 = struct.pack("<Q", c)
 	inc_c = n + c1
 	c = c + 1
