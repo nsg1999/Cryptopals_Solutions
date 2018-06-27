@@ -13,15 +13,15 @@ def PKCS7_padding_validation(s):
 	 	if( last_byte <= 0 and last_byte > 16):
 	 	 	print("invalid padding")
 	 	 	
-	  else:	
+	        else:	
 	 	 	for i in range(len(s)):
 	 			if( s[i] == last_byte ):
 	 	 			count = count + 1
 	 	 			
 	 		if( count == ord_byte ):
 				print("valid padding:)") 
-	    else:
-		   	print("invalid padding")		
+	                else:
+		   	        print("invalid padding")		
 
 
 
