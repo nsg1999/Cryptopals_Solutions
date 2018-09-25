@@ -1,1 +1,1 @@
-# Solutions to the problems from cryptopals.com
+# Solutions to the challenges from cryptopals.com
